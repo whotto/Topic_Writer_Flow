@@ -1,0 +1,53 @@
+# Core Dependencies
+python-dotenv>=0.19.0
+requests>=2.26.0
+aiohttp>=3.8.1
+pyyaml>=6.0
+python-dateutil>=2.8.2
+
+# AI & NLP
+openai>=1.0.0
+exa-py>=1.0.0
+deepseek>=0.1.0
+unsplash-py>=1.0.0
+
+# Data Processing
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Web & API
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-multipart>=0.0.5
+httpx>=0.23.0
+
+# File Handling
+python-docx>=0.8.11
+PyPDF2>=2.0.0
+markdown>=3.3.4
+
+# UI & Frontend
+streamlit>=1.2.0
+plotly>=5.3.1
+
+# System Utilities
+psutil>=5.8.0
+watchdog>=2.1.6
+
+# Development Tools
+black>=21.5b2
+flake8>=3.9.2
+pytest>=6.2.5
+pytest-asyncio>=0.15.1
+
+# Platform Specific
+# Windows
+pywin32>=228; sys_platform == 'win32'
+winshell>=0.6; sys_platform == 'win32'
+
+# macOS
+pyobjc-framework-Cocoa>=7.3; sys_platform == 'darwin'
+pyobjc-framework-SystemConfiguration>=7.3; sys_platform == 'darwin'
+
+# Linux
+python-xlib>=0.31; sys_platform == 'linux'

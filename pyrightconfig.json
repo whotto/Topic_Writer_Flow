@@ -1,0 +1,12 @@
+{
+        "venvPath": ".",
+        "venv": "venv",
+        "extraPaths": [
+                "./venv/lib/python3.x/site-packages"
+        ],
+        "analysis": {
+                "autoImportCompletions": true,
+                "useLibraryCodeForTypes": true,
+                "diagnosticMode": "workspace"
+        }
+}
